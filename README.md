@@ -27,20 +27,21 @@
 ---
 
 ## 🏗 โครงสร้างโปรเจกต์ (Project Structure)
+```text
 lib/
 ├── models/
-│   └── book.dart            # โครงสร้างข้อมูล (Model) และ Factory Methods
+│   └── book.dart           # โครงสร้างข้อมูล (Model) และ Factory Methods
 ├── providers/
-│   └── book_provider.dart   # จัดการ Logic, Search, Filter และ NotifyListeners
+│   └── book_provider.dart  # จัดการ Logic, Theme, Search, Filter
 ├── services/
-│   └── database_helper.dart # จัดการฐานข้อมูล SQLite (Init DB & CRUD Logic)
+│   └── database_helper.dart # จัดการฐานข้อมูล SQLite (2 ตาราง)
 ├── screens/
-│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation และ Search/Filter
-│   ├── dashboard_screen.dart # หน้าที่ 1: สรุปสถิติภาพรวม (Home/Dashboard)
-│   ├── list_screen.dart      # หน้าที่ 2: รายการหนังสือทั้งหมด (Modern Card UI)
+│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation และ Theme Toggle
+│   ├── dashboard_screen.dart # หน้าที่ 1: สรุปสถิติภาพรวม (Dashboard)
+│   ├── list_screen.dart      # หน้าที่ 2: รายการหนังสือ (Modern Card UI)
 │   ├── form_screen.dart      # หน้าที่ 3: แบบฟอร์มเพิ่ม/แก้ไขข้อมูล และ DatePicker
 │   └── detail_screen.dart    # หน้าที่ 4: แสดงรายละเอียดเชิงลึกและปุ่มดำเนินการ
-└── main.dart                # จุดเริ่มต้นแอปและการตั้งค่า MultiProvider
+└── main.dart                # จุดเริ่มต้นแอปและการตั้งค่า MultiProvider / Theme
 
 ---
 
