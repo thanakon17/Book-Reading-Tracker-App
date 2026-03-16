@@ -29,18 +29,18 @@
 ## 🏗 โครงสร้างโปรเจกต์ (Project Structure)
 lib/
 ├── models/
-│   └── book.dart            # โครงสร้างข้อมูล (Model) และ Factory Methods
+│   └── book.dart           # โครงสร้างข้อมูล (Model) และ Factory Methods
 ├── providers/
-│   └── book_provider.dart   # จัดการ Logic, Search, Filter และ NotifyListeners
+│   └── book_provider.dart  # จัดการ Logic, Theme, Search, Filter
 ├── services/
-│   └── database_helper.dart # จัดการฐานข้อมูล SQLite (Init DB & CRUD Logic)
+│   └── database_helper.dart # จัดการฐานข้อมูล SQLite (2 ตาราง)
 ├── screens/
-│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation และ Search/Filter
-│   ├── dashboard_screen.dart # หน้าที่ 1: สรุปสถิติภาพรวม (Home/Dashboard)
-│   ├── list_screen.dart      # หน้าที่ 2: รายการหนังสือทั้งหมด (Modern Card UI)
+│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation และ Theme Toggle
+│   ├── dashboard_screen.dart # หน้าที่ 1: สรุปสถิติภาพรวม (Dashboard)
+│   ├── list_screen.dart      # หน้าที่ 2: รายการหนังสือ (Modern Card UI)
 │   ├── form_screen.dart      # หน้าที่ 3: แบบฟอร์มเพิ่ม/แก้ไขข้อมูล และ DatePicker
 │   └── detail_screen.dart    # หน้าที่ 4: แสดงรายละเอียดเชิงลึกและปุ่มดำเนินการ
-└── main.dart                # จุดเริ่มต้นแอปและการตั้งค่า MultiProvider
+└── main.dart                # จุดเริ่มต้นแอปและการตั้งค่า MultiProvider / Theme
 
 ---
 
@@ -88,13 +88,13 @@ lib/
 
 ### 📊 สรุปผลและรายการหนังสือ
 
-| <img src="image_3.png" width="200" alt="Dashboard Screen"> | <img src="image_1.png" width="200" alt="All Books List"> | <img src="image_2.png" width="200" alt="Filtered Books List"> |
+| <img src="c:\Users\yuzuh\OneDrive\Pictures\Screenshots 1\image_3.png.png" width="200" alt="Dashboard Screen"> | <img src="c:\Users\yuzuh\OneDrive\Pictures\Screenshots 1\image_1.png.png" width="200" alt="All Books List"> | <img src="c:\Users\yuzuh\OneDrive\Pictures\Screenshots 1\image_2.png.png" width="200" alt="Filtered Books List"> |
 | :---: | :---: | :---: |
 | **หน้า Dashboard**<br>แสดงสถิติภาพรวมการอ่านของคุณ | **หน้ารายการหนังสือทั้งหมด**<br>แสดงหนังสือที่บันทึกไว้ | **หน้ารายการตามสถานะ**<br>แสดงหนังสือที่ "อ่านจบแล้ว" |
 
 ### 📝 รายละเอียดและการจัดการข้อมูล
 
-| <img src="image_0.png" width="200" alt="Book Detail Screen"> | <img src="image_4.png" width="200" alt="Add Book Form"> |
+| <img src="c:\Users\yuzuh\OneDrive\Pictures\Screenshots 1\image_0.png.png" width="200" alt="Book Detail Screen"> | <img src="c:\Users\yuzuh\OneDrive\Pictures\Screenshots 1\image_4.png.png" width="200" alt="Add Book Form"> |
 | :---: | :---: |
 | **หน้ารายละเอียดหนังสือ**<br>แสดงข้อมูลเชิงลึกและเมนูจัดการ | **หน้าเพิ่มข้อมูลหนังสือ**<br>แบบฟอร์มบันทึกหนังสือเล่มใหม่ |
 
