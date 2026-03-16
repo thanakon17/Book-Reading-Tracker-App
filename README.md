@@ -27,7 +27,6 @@
 ---
 
 ## 🏗 โครงสร้างโปรเจกต์ (Project Structure)
-```text
 lib/
 ├── models/
 │   └── book.dart           # โครงสร้างข้อมูล (Model) และ Factory Methods
