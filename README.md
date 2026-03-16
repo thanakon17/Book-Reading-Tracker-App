@@ -25,24 +25,6 @@
 
 ---
 
-## 🏗 โครงสร้างโปรเจกต์ (Project Structure)
-lib/
-├── models/
-│   └── book.dart            # โครงสร้างข้อมูล (Model)
-├── providers/
-│   └── book_provider.dart   # จัดการ Logic และ State Management
-├── services/
-│   └── database_helper.dart # จัดการฐานข้อมูล SQLite
-├── screens/
-│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation
-│   ├── dashboard_screen.dart # ส่วนแสดงสถิติภาพรวม
-│   ├── list_screen.dart      # รายการหนังสือ (Modern Card UI)
-│   ├── form_screen.dart      # แบบฟอร์มเพิ่ม/แก้ไขข้อมูล
-│   └── detail_screen.dart    # แสดงรายละเอียดเชิงลึก
-└── main.dart                # จุดเริ่มต้นแอป
-
----
-
 ## 🗄 โครงสร้างฐานข้อมูล (Relational Schema)
 1. **Table `books`**: เก็บข้อมูลหลัก (id, title, author, category_id, pages, status, startDate)
 2. **Table `categories`**: เก็บหมวดหมู่หนังสือ (id, name)
@@ -77,4 +59,19 @@ lib/
 | ** | ** |
 
 ---
+```text
+lib/
+├── models/
+│   └── book.dart            # โครงสร้างข้อมูล (Model)
+├── providers/
+│   └── book_provider.dart   # จัดการ Logic และ State Management
+├── services/
+│   └── database_helper.dart # จัดการฐานข้อมูล SQLite
+├── screens/
+│   ├── home_screen.dart      # หน้าหลักพร้อมระบบ Navigation
+│   ├── dashboard_screen.dart # ส่วนแสดงสถิติภาพรวม
+│   ├── list_screen.dart      # รายการหนังสือ (Modern Card UI)
+│   ├── form_screen.dart      # แบบฟอร์มเพิ่ม/แก้ไขข้อมูล
+│   └── detail_screen.dart    # แสดงรายละเอียดเชิงลึก
+└── main.dart                # จุดเริ่มต้นแอป
 © 2026 Thanakon Phadungsilp. All Rights Reserved.
