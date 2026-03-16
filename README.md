@@ -88,7 +88,7 @@ lib/
 
 ### 📊 สรุปผลและรายการหนังสือ
 
-| <img src="image_3.png" width="200" alt="Dashboard Screen"> | <img src="image_1.png" width="200" alt="All Books List"> | <img src="image_2.png" width="200" alt="Filtered Books List"> |
+| <img  width="200" alt="Dashboard Screen"> | <img Screenshot 2026-03-16 120227 width="200" alt="All Books List"> | <img  width="200" alt="Filtered Books List"> |
 | :---: | :---: | :---: |
 | **หน้า Dashboard**<br>แสดงสถิติภาพรวมการอ่านของคุณ | **หน้ารายการหนังสือทั้งหมด**<br>แสดงหนังสือที่บันทึกไว้ | **หน้ารายการตามสถานะ**<br>แสดงหนังสือที่ "อ่านจบแล้ว" |
 
